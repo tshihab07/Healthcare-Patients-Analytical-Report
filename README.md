@@ -1,4 +1,4 @@
-# Healthcare-Patients-Analytical-Report
+# Healthcare Patients Analytical Report
 
 ## Table of Contents
 
