@@ -1,0 +1,877 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"data\",\"measure\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.136.1202.0 (24.09)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "97ca32db-4b26-ff68-7499-792adc45aaf6",
+        "fromColumn": "date",
+        "fromTable": "data",
+        "toColumn": "Date",
+        "toTable": "Date"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "data",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "9e623348-a86a-4a25-97b7-4cc161e6ccd7",
+            "sourceColumn": "date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "patient_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1cf83b50-0159-42fe-98e5-09282f86a40b",
+            "sourceColumn": "patient_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "patient_gender",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8d8985e4-1928-49a7-a7ea-d2f0b98cc38f",
+            "sourceColumn": "patient_gender",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "patient_age",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3ae9060a-57fe-4788-8fb5-a4b11ebe52ed",
+            "sourceColumn": "patient_age",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "patient_sat_score",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5b48bab7-dcfe-4786-a281-def3dcd39226",
+            "sourceColumn": "patient_sat_score",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Full Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "78c73da5-93e1-4d7b-8e9b-fd558a8f3dc4",
+            "sourceColumn": "Full Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "patient_race",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "be562547-4410-48aa-b2c8-b53fef2b833a",
+            "sourceColumn": "patient_race",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "patient_admin_flag",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "9a013a30-83df-4aed-9ffa-aba31758f3e2",
+            "sourceColumn": "patient_admin_flag",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "patient_waittime",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "76189301-303f-41c3-a9bc-eca70821a2f0",
+            "sourceColumn": "patient_waittime",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "department_referral",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b9b31409-7dff-40e4-9b4a-4ead5d23bf66",
+            "sourceColumn": "department_referral",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Shift",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8de6b7ba-2792-449c-b71c-7e4b4ffcebaf",
+            "sourceColumn": "Shift",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Age_Bucket",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "SWITCH(",
+              "    TRUE(),",
+              "    data[patient_age] <= 12, \"0-12\",",
+              "    data[patient_age] <= 19, \"13-19\",",
+              "    data[patient_age] <= 35, \"20-35\",",
+              "    data[patient_age] <= 50, \"36-50\",",
+              "    data[patient_age] <= 65, \"51-65\",",
+              "    \"65+\"",
+              ")"
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "92621c1c-0d71-4dc4-b90b-a9175c653e03",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Age_Group",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "SWITCH(",
+              "    TRUE(),",
+              "    data[patient_age] <= 2, \"Infancy\",",
+              "    data[patient_age] <= 6, \"Early Childhood\",",
+              "    data[patient_age] <= 12, \"Middle Childhood\",",
+              "    data[patient_age] <= 19, \"Teengager\",",
+              "    \"Adult\"",
+              ")"
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "98369b5d-b262-4913-acab-ea5a622e49fa",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "1733dcd1-f038-4fc7-bd4c-29fd96a3f66b",
+        "partitions": [
+          {
+            "name": "data",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"F:\\03. Python Programming\\09 Data Analysis\\01 DataVisualization\\PowerBI\\20241213_PBVI05_HealthcareAnalyticalDashboard\\files\\Hospital ER.csv\"),[Delimiter=\",\", Columns=11, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"date\", type datetime}, {\"patient_id\", type text}, {\"patient_gender\", type text}, {\"patient_age\", Int64.Type}, {\"patient_sat_score\", Int64.Type}, {\"patient_first_inital\", type text}, {\"patient_last_name\", type text}, {\"patient_race\", type text}, {\"patient_admin_flag\", type logical}, {\"patient_waittime\", Int64.Type}, {\"department_referral\", type text}}),",
+                "    #\"Inserted Last Characters\" = Table.AddColumn(#\"Changed Type\", \"Last Characters\", each Text.End(Text.From([date], \"en-US\"), 2), type text),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Inserted Last Characters\",{{\"Last Characters\", \"Shift\"}}),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Renamed Columns\",{{\"date\", type date}}),",
+                "    #\"Merged Columns\" = Table.CombineColumns(#\"Changed Type1\",{\"patient_first_inital\", \"patient_last_name\"},Combiner.CombineTextByDelimiter(\" \", QuoteStyle.None),\"Full Name\")",
+                "in",
+                "    #\"Merged Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "measure",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Column1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "dc6e57cf-f995-4c5a-ad55-e3f74ad43371",
+            "sourceColumn": "Column1",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "e31ba2f5-3558-4583-8378-2d45be6933b3",
+        "measures": [
+          {
+            "name": "Total Patient",
+            "expression": "COUNTROWS(data)",
+            "formatString": "#,0",
+            "lineageTag": "bf81b9ac-bcaa-4388-a3f8-33538970e64f"
+          },
+          {
+            "name": "% Admin Schedule",
+            "expression": [
+              "DIVIDE(",
+              "    COUNTROWS(",
+              "        FILTER(data, data[patient_admin_flag] = TRUE())",
+              "    ),",
+              "    [Total Patient])"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "a8c1ea98-17ae-441d-972f-fd31877d7929"
+          },
+          {
+            "name": "% Non-Admin Schedule",
+            "expression": [
+              "DIVIDE(",
+              "    COUNTROWS(",
+              "        FILTER(data, data[patient_admin_flag] = FALSE())",
+              "    ),",
+              "    [Total Patient])"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "e2a26b29-5633-4f1c-bdd2-323c51b23f9c"
+          },
+          {
+            "name": "Average Satisfication",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "CALCULATE(",
+              "    AVERAGE(data[patient_sat_score]),",
+              "    data[patient_sat_score]<>BLANK()",
+              ")"
+            ],
+            "lineageTag": "a814c664-8226-48a3-b034-189666278212"
+          },
+          {
+            "name": "% No Ratings",
+            "expression": [
+              "DIVIDE(",
+              "    CALCULATE(",
+              "        [Total Patient], data[patient_sat_score] = BLANK()),",
+              "    [Total Patient]",
+              ")"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "f9c89510-305d-4c64-bd30-ec1c4657abad"
+          },
+          {
+            "name": "Average Waiting Time",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "AVERAGE(data[patient_waittime])",
+            "lineageTag": "c455d804-2435-40d9-8095-f79a15c6bf2e"
+          },
+          {
+            "name": "Conditional Peak Formatting_Month",
+            "expression": [
+              "",
+              "VAR _patientTable = ",
+              "CALCULATETABLE(",
+              "    ADDCOLUMNS(",
+              "        SUMMARIZE('Date', 'Date'[Month]),",
+              "        \"@Total_Patient\", [Total Patient]),",
+              "        ALLSELECTED()",
+              "    )",
+              "",
+              "VAR _maxValue = MAXX(_patientTable,[@Total_Patient])",
+              "VAR _minValue = MINX(_patientTable,[@Total_Patient])",
+              "VAR _totalPatient = [Total Patient]",
+              "",
+              "RETURN",
+              "SWITCH(",
+              "    TRUE(),",
+              "    _totalPatient = _maxValue,1,",
+              "    _totalPatient = _minValue,0",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "bc57146c-b7ad-4124-a84a-202946b0cc8a"
+          },
+          {
+            "name": "Peak Values_Month",
+            "expression": [
+              "",
+              "VAR _patientTable = ",
+              "CALCULATETABLE(",
+              "    ADDCOLUMNS(",
+              "        SUMMARIZE('Date', 'Date'[Month]),",
+              "        \"@Total_Patient\", [Total Patient]),",
+              "        ALLSELECTED()",
+              "    )",
+              "",
+              "VAR _maxValue = MAXX(_patientTable,[@Total_Patient])",
+              "VAR _minValue = MINX(_patientTable,[@Total_Patient])",
+              "VAR _totalPatient = [Total Patient]",
+              "",
+              "RETURN",
+              "SWITCH(",
+              "    TRUE(),",
+              "    _totalPatient = _maxValue,[Total Patient],",
+              "    _totalPatient = _minValue,[Total Patient]",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "91575f82-17dc-4e13-9e40-7f18eeedddc5"
+          },
+          {
+            "name": "Conditional Peak Formatting_Year",
+            "expression": [
+              "",
+              "VAR _patientTable = ",
+              "CALCULATETABLE(",
+              "    ADDCOLUMNS(",
+              "        SUMMARIZE('Date', 'Date'[Year]),",
+              "        \"@Total_Patient\", [Total Patient]),",
+              "        ALLSELECTED()",
+              "    )",
+              "",
+              "VAR _maxValue = MAXX(_patientTable,[@Total_Patient])",
+              "VAR _minValue = MINX(_patientTable,[@Total_Patient])",
+              "VAR _totalPatient = [Total Patient]",
+              "",
+              "RETURN",
+              "SWITCH(",
+              "    TRUE(),",
+              "    _totalPatient = _maxValue,1,",
+              "    _totalPatient = _minValue,0",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "aae185e6-9aad-47d4-aba0-8343cfbd5ab8"
+          },
+          {
+            "name": "Peak Values_Year",
+            "expression": [
+              "",
+              "VAR _patientTable = ",
+              "CALCULATETABLE(",
+              "    ADDCOLUMNS(",
+              "        SUMMARIZE('Date', 'Date'[Year]),",
+              "        \"@Total_Patient\", [Total Patient]),",
+              "        ALLSELECTED()",
+              "    )",
+              "",
+              "VAR _maxValue = MAXX(_patientTable,[@Total_Patient])",
+              "VAR _minValue = MINX(_patientTable,[@Total_Patient])",
+              "VAR _totalPatient = [Total Patient]",
+              "",
+              "RETURN",
+              "SWITCH(",
+              "    TRUE(),",
+              "    _totalPatient = _maxValue,[Total Patient],",
+              "    _totalPatient = _minValue,[Total Patient]",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "73a4d738-1157-4586-8547-0771a6b424b3"
+          },
+          {
+            "name": "% Unreferred Patient",
+            "expression": [
+              "DIVIDE(",
+              "    COUNTROWS(",
+              "        FILTER(data, data[department_referral] = \"None\")",
+              "    ),",
+              "    [Total Patient])"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "790ec0f9-1fc3-4a99-91b1-04b99caec285"
+          },
+          {
+            "name": "% Referred Patient",
+            "expression": [
+              "",
+              "VAR _refPatient = CALCULATE(",
+              "    [Total Patient],",
+              "    data[department_referral]<>\"None\"",
+              ")",
+              "RETURN DIVIDE(",
+              "    _refPatient, [Total Patient]",
+              ")"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "a9294403-9e1b-4913-90f4-835507373f93"
+          },
+          {
+            "name": "Heatmap Caption",
+            "expression": [
+              "",
+              "VAR _selectedOption =  SELECTEDVALUE(Parameter[Parameter Order])",
+              "RETURN",
+              "IF(_selectedOption=0,",
+              "\"The darkest RED indicates the most satisfaction\",",
+              "\"The darkest GREEN indicates the most waited time\"",
+              ")"
+            ],
+            "lineageTag": "5d2a532a-4832-4273-9e91-eab50672087e"
+          },
+          {
+            "name": "% Male Patient",
+            "expression": [
+              "DIVIDE(",
+              "    CALCULATE(",
+              "        [Total Patient], data[patient_gender] = \"M\"),",
+              "        [Total Patient]",
+              ")"
+            ],
+            "formatString": "0.0%;-0.0%;0.0%",
+            "lineageTag": "db8d2d0a-6784-4081-8c75-6a71d937fe4e"
+          },
+          {
+            "name": "% Female Patient",
+            "expression": [
+              "DIVIDE(",
+              "    CALCULATE(",
+              "        [Total Patient], data[patient_gender] = \"F\"),",
+              "        [Total Patient]",
+              ")"
+            ],
+            "formatString": "0.0%;-0.0%;0.0%",
+            "lineageTag": "32edaf38-a54b-4e95-a4a6-33752e53a95f"
+          },
+          {
+            "name": "% Unknown Patient",
+            "expression": [
+              "DIVIDE(",
+              "    CALCULATE(",
+              "        [Total Patient], data[patient_gender] = \"NC\"),",
+              "        [Total Patient]",
+              ")"
+            ],
+            "formatString": "0.0%;-0.0%;0.0%",
+            "lineageTag": "d4ec453c-132a-4dd4-af9b-5c96864426c4"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "measure",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Column1\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Parameter",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "ee703184f75746b58551a98f259b499e"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Parameter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "090f48bd-54c2-4270-9a34-28b8479992f6",
+            "relatedColumnDetails": {
+              "groupByColumns": [
+                {
+                  "groupingColumn": "Parameter Fields"
+                }
+              ]
+            },
+            "sortByColumn": "Parameter Order",
+            "sourceColumn": "[Value1]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Parameter Fields",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "extendedProperties": [
+              {
+                "name": "ParameterMetadata",
+                "type": "json",
+                "value": {
+                  "kind": 2,
+                  "version": 3
+                }
+              }
+            ],
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "d44a00a7-13aa-485f-8586-3e1f98c132e2",
+            "sortByColumn": "Parameter Order",
+            "sourceColumn": "[Value2]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Parameter Order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "d4e83db5-4883-492a-b99a-e9140f084d13",
+            "sourceColumn": "[Value3]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "3bb46e6e-6382-49a3-80bc-1f400dbdec7d",
+        "partitions": [
+          {
+            "name": "Parameter",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "{",
+                "    (\"Avg. Satisfication\", NAMEOF('measure'[Average Satisfication]), 0),",
+                "    (\"Avg. Wait Time\", NAMEOF('measure'[Average Waiting Time]), 1)",
+                "}"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Date",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "375f7f58a5cd4b788128576582491fa2"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "isDataTypeInferred": true,
+            "isKey": true,
+            "isNameInferred": true,
+            "lineageTag": "2b660393-e09b-4963-b87d-fa03ea6bfa1b",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "b68dcf78-f757-4cf7-ae29-b1accfa746a2",
+            "sourceColumn": "[Year]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "41ff6fd4-7629-4c74-80fc-d0d170e6e801",
+            "sortByColumn": "MonthNum",
+            "sourceColumn": "[Month]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "WeekType",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "a0e77c17-51f6-4e15-945f-a630621aebc2",
+            "sourceColumn": "[WeekType]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "c1983236-096f-4530-afce-f97a656991f1",
+            "sourceColumn": "[Day]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "MonthNum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "cdc3a8e5-2b2d-42fb-9a6a-df8e6a89cb2b",
+            "sourceColumn": "[MonthNum]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "dataCategory": "Time",
+        "lineageTag": "cc4b888a-c882-466b-879b-dd398d6c71c1",
+        "partitions": [
+          {
+            "name": "Date",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "ADDCOLUMNS(",
+                "    CALENDARAUTO(),",
+                "    \"Year\", YEAR([Date]),",
+                "    \"Month\", FORMAT([Date], \"mmm\"),",
+                "    \"WeekType\", IF(WEEKDAY([Date])=1, \"Weekend\", IF(WEEKDAY([Date])=7,\"Weekend\", \"Weekday\")),",
+                "    \"Day\", FORMAT([Date], \"ddd\"),",
+                "    \"MonthNum\",MONTH([Date])",
+                ")"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Monthly Patients",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "720843b5c3124fa49d3f5a2f78955ff7"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "a5d445cc-b84c-467a-a33e-e9d21c739e05",
+            "sourceColumn": "Date[Month]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "@Total_Patient",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "bc7181c9-67fe-4997-9f26-44c275ee14ea",
+            "sourceColumn": "[@Total_Patient]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "50e727f3-f30d-4026-900f-2f7916d4c3ce",
+        "partitions": [
+          {
+            "name": "Monthly Patients",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "VAR _patientTable = ",
+                "CALCULATETABLE(",
+                "    ADDCOLUMNS(",
+                "        SUMMARIZE('Date', 'Date'[Month]),",
+                "        \"@Total_Patient\", [Total Patient]),",
+                "        ALLSELECTED()",
+                "    )",
+                "    RETURN _patientTable"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

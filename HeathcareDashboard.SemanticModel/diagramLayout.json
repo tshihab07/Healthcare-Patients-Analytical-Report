@@ -1,0 +1,86 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "data",
+          "nodeLineageTag": "1733dcd1-f038-4fc7-bd4c-29fd96a3f66b",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 552,
+            "y": 0
+          },
+          "nodeIndex": "measure",
+          "nodeLineageTag": "e31ba2f5-3558-4583-8378-2d45be6933b3",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 293,
+            "y": 222
+          },
+          "nodeIndex": "Parameter",
+          "nodeLineageTag": "3bb46e6e-6382-49a3-80bc-1f400dbdec7d",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 293,
+            "y": 0
+          },
+          "nodeIndex": "Date",
+          "nodeLineageTag": "cc4b888a-c882-466b-879b-dd398d6c71c1",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 931,
+            "y": 73
+          },
+          "nodeIndex": "Monthly Patients",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
