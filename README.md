@@ -20,9 +20,9 @@ The **Healthcare Patient's Analytical Dashboard** provides a comprehensive overv
 ## Key Features
 
 1. **Total Patients Overview:** This displays the total number of patients and includes the breakdown of Administration Appointments vs. Non-Administration Appointments.
-2. **Average Satisfaction Score:** Patient feedback including the percentage of service not rated.
+2. **Average Satisfaction Score:** Patient feedback, including the percentage of services not rated.
 3. **Average Wait Time:** Highlights time management performance.
-4. **Visit Breakdown by Week Type:** Analyzes patient visits on weekdays and weekends.
+4. **Visit Breakdown by Week Type:** Analyzes patient visits by weekday and weekend.
 5. **Patient Demographics:** Categorized patients into age group and percentages of gender breakdown(male, female, unknown/others).
 6. **Patient Visit Trends:** Identifies peak patient visits by month and shows a steady increase in patients by year.
 7. **Referral Insights:** A clear visualization of whether the patient is referred to a specific department(General Practice, Orthopedics, Physiotherapy, Cardiology, etc.) or a walk-in visitor.
