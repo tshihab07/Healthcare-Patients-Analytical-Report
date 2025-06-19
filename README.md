@@ -16,12 +16,12 @@
 
 ## Overview
 
-The **Healthcare Patient's Analytical Dashboard** provides a comprehensive overview of patient statistics. It is designed to help healthcare administrators and decision-makers analyze patterns in patient visits, satisfaction levels, and service delivery. This dashboard offers insights into various aspects of patient interactions and outcomes to improve healthcare services.
+The **Healthcare Patient's Analytical Dashboard** provides a comprehensive overview of patient statistics. It is designed to help healthcare administrators and decision-makers analyze patterns in patient visits, satisfaction levels, and service delivery. This dashboard provides insights into various aspects of patient interactions and outcomes, enabling improvements in healthcare services.
 
 
 ## Key Features
 
-1. **Total Patients Overview:** This displays the total number of patients and includes the breakdown of Administration Appointments vs. Non-Administration Appointments.
+1. **Total Patients Overview:** This displays the total number of patients and provides a breakdown of Administration Appointments versus Non-Administration Appointments.
 2. **Average Satisfaction Score:** Patient feedback, including the percentage of services not rated.
 3. **Average Wait Time:** Highlights time management performance.
 4. **Visit Breakdown by Week Type:** Analyzes patient visits by weekday and weekend.
