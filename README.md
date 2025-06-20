@@ -12,11 +12,12 @@
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#contact)
 
 
 ## Overview
 
-The **Healthcare Patient's Analytical Dashboard** provides a comprehensive overview of patient statistics. It is designed to help healthcare administrators and decision-makers analyze patterns in patient visits, satisfaction levels, and service delivery. This dashboard provides insights into various aspects of patient interactions and outcomes, enabling improvements in healthcare services.
+The **Healthcare Patient's Analytical Report** provides a comprehensive overview of patient statistics. It is designed to help healthcare administrators and decision-makers analyze patterns in patient visits, satisfaction levels, and service delivery. This dashboard provides insights into various aspects of patient interactions and outcomes, enabling improvements in healthcare services.
 
 
 ## Key Features
@@ -50,7 +51,7 @@ The **Healthcare Patient's Analytical Dashboard** provides a comprehensive overv
 
 ## How to Use This Dashboard
 
-1. **Filters:** Use slicers like Periods (AM/PM) or department-specific data to focus on specific metrics.
+1. **Filters:** Use slicers, such as Periods (AM/PM) or department-specific data, to focus on specific metrics.
 2. **Visuals:** Examine trends through line charts (e.g., visits by month, year) and compare categories with bar charts and heatmaps.
 3. **Interpret Insights:** Identify areas of improvement (e.g., wait times, satisfaction) and allocate resources based on department demand.
 
@@ -94,3 +95,8 @@ Contributions are welcome! Please feel free to submit a pull request.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+E-mail: tushar.shihab13@gmail.com <br>
+More Projects: 👉🏿 [Projects](https://github.com/tshihab07?tab=repositories)<br>
+LinkedIn: [Tushar Shihab](https://www.linkedin.com/in/tshihab07/)
